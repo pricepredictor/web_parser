@@ -1,2 +1,20 @@
-# web_parser
-parse real estate websites for data collection
+# web_crawler
+
+Парсер сайтов cian.ru и avito.ru. Извлекает с этих сайтов данные о недвижимости. </br>
+Достает данные в формате (цена, кол-во комнат, площадь, этаж, всего этажей в здании, 
+адрес, станция метро(если есть), расстояние до ближайшей станции метро(если есть).
+
+## Необходимое программное обеспечение
+
+python (3.7) - можно скачать тут: https://www.python.org/downloads/  <br>
+anaconda (python 3.7 version) - можно скачать тут: https://www.anaconda.com/distribution/
+
+ ## Инструкция по использованию
+ 
+  Заходим в директорию с файлом parser.ipynb и исполняем следующую команду:<br>
+  `jupyter nbconvert --to script parser.ipynb `<br>
+  Появится файл parser.py, который запускаем следующей командой:<br>
+  `python parser.py`
+  <br>
+  Результаты будут в папке 'сsv-data'. Также для работы скрипта необходимо подключение к интернету.
+  
